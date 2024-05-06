@@ -1,0 +1,6 @@
+/.idea
+*.class
+*.idea/*
+/frontend0/.scannerworks
+/frontend/.scannerwork
+/backend/target

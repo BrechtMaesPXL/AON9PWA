@@ -1,11 +1,9 @@
 <script>
-import IconHome from "@/components/icons/IconHome.vue";
-import IconNotification from "@/components/icons/IconNotification.vue";
-import IconAccount from "@/components/icons/IconAccount.vue";
+
 import {RouterView} from "vue-router";
 export default {
   name: "FooterComponent",
-  components: {RouterView, IconAccount, IconNotification, IconHome}
+  components: {RouterView,}
 }
 </script>
 
@@ -49,7 +47,7 @@ nav {
   text-align: center;
   padding: 1rem 0;
   justify-content: center;
-  background: #f5ecbd;
+  background: white;
 }
 
 nav a.router-link-exact-active:hover {
